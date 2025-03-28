@@ -1,0 +1,16 @@
+{
+  "name": "blingpay",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/templates/main/*.html --port 4748",
+    "dev": "parcel serve src/templates/main/*.html --port 4748"
+  },
+  "author": "Danik Yakimenko <danialyakimenko@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.14.2",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.86.0"
+  }
+}
