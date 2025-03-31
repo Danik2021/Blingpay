@@ -1,3 +1,9 @@
+@use '../../styles/common.scss' as *;
+@use './styles/main-styles/variables.scss' as *;
+@use './styles/main-styles/main-style.scss' as *;
+@use './styles/header.scss' as *;
+// ====================
+/* FONTS */
 /* Exo */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
 /* Open Sans */
