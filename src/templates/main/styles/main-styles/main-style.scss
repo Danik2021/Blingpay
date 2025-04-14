@@ -4,6 +4,11 @@ body {
   font-size: $main-font-size;
   font-family: $main-font-family;
   color: $main-text-color;
+  background-color: $main-background-color;
+}
+
+button {
+  cursor: pointer;
 }
 
 .container {
