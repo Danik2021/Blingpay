@@ -7,10 +7,13 @@
   },
   "author": "Danik Yakimenko <danialyakimenko@gmail.com>",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "parcel": "^2.14.2",
     "parcel-bundler": "^1.12.5",
     "sass": "^1.86.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4"
   }
 }
