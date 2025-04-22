@@ -5,10 +5,12 @@ body {
   font-family: $main-font-family;
   color: $main-text-color;
   background-color: $main-background-color;
+  font-weight: 400;
 }
 
 button {
   cursor: pointer;
+  background: none;
 }
 
 .container {
