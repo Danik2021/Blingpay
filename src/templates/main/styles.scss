@@ -1,9 +1,10 @@
 @use '../../styles/common.scss' as *;
-@use './styles/main-styles/variables.scss' as *;
-@use './styles/absolute.scss' as *;
-@use './styles/main-styles/main-style.scss' as *;
-@use './styles/header.scss' as *;
-@use './styles/payments.scss' as *;
+@use './styles/utils/variables.scss' as *;
+@use './styles/utils/absolute.scss' as *;
+@use './styles/utils/main-style.scss' as *;
+@use './styles/utils/mixins.scss' as *;
+@use './styles/components/header.scss' as *;
+@use './styles/components/payments.scss' as *;
 // ====================
 /* FONTS */ /* Exo */
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');

@@ -1,0 +1,22 @@
+@use './variables.scss' as *;
+@use './mixins.scss' as *;
+
+// header
+
+.absolute-element-header {
+  @include absolute(absolute, 0, 0, -1);
+}
+
+// main
+
+.absolute-element-payments {
+  @include absolute(absolute, 388px, 0, -2);
+}
+
+.absolute-element-community {
+  @include absolute(absolute, 0, 0, -2);
+}
+
+.absolute-element-benefits {
+  @include absolute(absolute, 0, 0, -2);
+}

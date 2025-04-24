@@ -1,9 +1,8 @@
-@use './main-styles/variables.scss' as *;
+@use '../utils/variables.scss' as *;
+@use '../utils/mixins.scss' as *;
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex(initial, space-between, center, 0);
   background-color: transparent;
   padding: 10px;
   text-align: center;
@@ -11,9 +10,8 @@
 }
 
 .header__logo {
-  display: flex;
-  align-items: center;
-  gap: 0 8px;
+  @include flex(initial, initial, center, 0 8px);
+  cursor: pointer;
   &-text {
     font-size: 36px;
     font-weight: 600;
@@ -22,10 +20,7 @@
 }
 
 .header__nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0 41px;
+  @include flex(initial, center, center, 0 41px);
 }
 
 .header__actions-button {
@@ -54,11 +49,7 @@
 }
 
 .main__content {
-  display: flex;
-  max-width: 421px;
-  align-items: left;
-  flex-direction: column;
-  gap: 18px 0;
+  @include flex(column, initial, left, 18px 0);
   &-title {
     font-size: 54px;
     font-weight: 800;
