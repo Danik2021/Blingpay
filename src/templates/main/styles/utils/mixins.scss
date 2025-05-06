@@ -1,4 +1,4 @@
-@mixin absolute($position, $top, $left, $z-index) {
+@mixin position($position, $top, $left, $z-index) {
   position: $position;
   top: $top;
   left: $left;
