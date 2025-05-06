@@ -4,19 +4,19 @@
 // header
 
 .absolute-element-header {
-  @include position(absolute, 0, 0, -1);
+  @include absolute(absolute, 0, 0, -1);
 }
 
 // main
 
 .absolute-element-payments {
-  @include position(absolute, 388px, 0, -2);
+  @include absolute(absolute, 388px, 0, -2);
 }
 
 .absolute-element-community {
-  @include position(absolute, 0, 0, -2);
+  @include absolute(absolute, 0, 0, -2);
 }
 
 .absolute-element-benefits {
-  @include position(absolute, 0, 0, -2);
+  @include absolute(absolute, 0, 0, -2);
 }
