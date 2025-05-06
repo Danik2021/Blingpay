@@ -4,7 +4,9 @@
 // header
 
 .absolute-element-header {
-  @include position(absolute, 0, 0, -1);
+  @include absolute(absolute, 0, 0, -1);
+  // max-width: 1500px;
+  // width: 1500px;
 }
 
 // main
@@ -19,4 +21,9 @@
 
 .absolute-element-benefits {
   @include position(absolute, 0, 0, -2);
+}
+
+.benefits-img-ab {
+  position: absolute;
+  right: 0;
 }

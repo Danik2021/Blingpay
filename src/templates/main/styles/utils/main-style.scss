@@ -1,11 +1,13 @@
 @use './variables.scss' as *;
 
 body {
+  position: relative;
   font-size: $main-font-size;
   font-family: $main-font-family;
   color: $main-text-color;
   background-color: $main-background-color;
   font-weight: 400;
+  max-width: 1500px;
 }
 
 button {

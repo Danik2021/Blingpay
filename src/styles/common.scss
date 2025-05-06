@@ -9,6 +9,7 @@
 
 body {
   background-color: $main-background-color;
+  max-width: 1500px;
 }
 
 a {
@@ -22,10 +23,6 @@ ul {
 
 .hide {
   display: none;
-}
-
-img {
-  max-width: 100%;
 }
 
 button {
